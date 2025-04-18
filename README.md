@@ -2,7 +2,7 @@
 
 Pulls data from Reddit's API and keeps track of the most upvoted posts and user with the most posts since the app began to run.
 
-Additionally, it exposes http endpoints to retrieve those statistics.
+Additionally, it exposes http endpoints to retrieve those statistics, and prints current stats to the terminal.
 
 ## How to run locally
 ### Env vars to set
