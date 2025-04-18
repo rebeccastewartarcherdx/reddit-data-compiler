@@ -11,6 +11,11 @@ Additionally, it exposes http endpoints to retrieve those statistics.
 - `REDDIT_APPID`: reddit app id given when adding your app to your reddit account
 - `REDDIT_SECRET`: reddit secret key provided when adding app to your reddit account
 
+## Start the app
+Clone the repo, then when in `reddit-data-compiler`, run `go run .` in your terminal. This assumes you have go version 1.24 installed, this can be modified in `go.mod`.
+
+To run tests, run `go test ./...` in your terminal.
+
 ### http server
 http server will run on `localhost:8005`, but this can be modified in `main.go` as desired.
 * Method: `GET`
